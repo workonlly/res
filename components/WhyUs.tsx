@@ -7,7 +7,7 @@ export default function WhyUs() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-12 gap-12 items-center">
           <div className="lg:col-span-5">
-            <h2 className="text-3xl md:text-5xl font-serif font-bold text-[#3e2723] mb-6">Why Diners Choose Us</h2>
+            <h2 className="text-3xl md:text-5xl font-serif font-bold text-[#3e2723] mb-6">Why People Choose Us</h2>
             <p className="text-gray-600 text-lg mb-8">
               We believe in providing more than just food. At Gupta Bhojnalaya, we offer a complete dining experience built on trust, taste, and tradition.
             </p>
