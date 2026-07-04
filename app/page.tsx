@@ -4,6 +4,7 @@ import Hero from "../components/Hero";
 import About from "../components/About";
 import MenuHighlights from "../components/MenuHighlights";
 import WhyUs from "../components/WhyUs";
+import Services from "../components/service";
 import Reviews from "../components/Reviews";
 import Gallery from "../components/Gallery";
 import VisitUs from "../components/VisitUs";
@@ -44,6 +45,7 @@ export default async function GuptaBhojnalaya() {
       <About data={content.about} />
       <MenuHighlights />
       <WhyUs />
+      <Services />
       <Reviews data={content.reviews} />
       <Gallery data={content.gallery} />
       <VisitUs />

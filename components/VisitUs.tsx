@@ -47,7 +47,7 @@ export default function VisitUs() {
 
             <div className="mt-10">
               <a 
-                href="https://maps.google.com/?q=Gupta+Bhojnalaya+Sambhal+Uttar+Pradesh" 
+                href="https://maps.app.goo.gl/6H2cBKVsDnLubeAu6" 
                 target="_blank"
                 rel="noreferrer"
                 className="bg-[#ea580c] text-white w-full py-3 rounded-sm font-medium hover:bg-orange-700 transition-colors flex items-center justify-center gap-2"
@@ -60,7 +60,7 @@ export default function VisitUs() {
           {/* Map Side (Placeholder using iframe) */}
           <div className="lg:w-2/3 h-[400px] lg:h-auto bg-gray-200 relative">
             <iframe 
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d112344.60623694086!2d78.47141515!3d28.5910398!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390b213b2c262c5b%3A0xcab3b1e39a3f2b1a!2sSambhal%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin" 
+              src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3503.574898628444!2d78.57111737549893!3d28.582525275692117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjjCsDM0JzU3LjEiTiA3OMKwMzQnMjUuMyJF!5e0!3m2!1sen!2sin!4v1783171432351!5m2!1sen!2sin" 
               className="absolute inset-0 w-full h-full border-0" 
               allowFullScreen={true} 
               loading="lazy" 
