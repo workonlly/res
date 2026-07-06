@@ -36,7 +36,7 @@ export default function About({ data }: { data?: any }) {
               <p className="font-serif text-xl text-[#3e2723] italic">"Simple food, real taste, warm service."</p>
             </blockquote>
 
-            <div className="grid grid-cols-2 gap-6 border-t border-gray-200 pt-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 border-t border-gray-200 pt-8">
               <div className="flex items-start gap-3">
                 <ShieldCheck className="text-[#16a34a] mt-1 shrink-0" />
                 <div>
