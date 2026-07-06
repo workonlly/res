@@ -27,7 +27,7 @@ export default function Hero({ data }: { data?: any }) {
   };
 
   return (
-    <section id="home" className="relative h-screen min-h-[600px] flex items-center justify-center">
+    <section id="home" className="relative min-h-screen flex items-center justify-center py-20">
       {/* Placeholder for high-quality North Indian Thali/Restaurant background */}
       <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1585937421612-70a008356fbe?q=80&w=2000&auto=format&fit=crop')] bg-cover bg-center">
         <div className="absolute inset-0 bg-gradient-to-r from-[#2E1B15]/90 via-[#2E1B15]/70 to-transparent" />
@@ -38,7 +38,7 @@ export default function Hero({ data }: { data?: any }) {
           <div className="inline-flex items-center gap-2 bg-[#ea580c]/30 backdrop-blur-md border border-[#ea580c]/50 text-white px-5 py-2 rounded-full text-sm font-bold mb-8 shadow-lg uppercase tracking-wider">
             <Leaf size={16} className="text-green-400" /> {data?.badge || "100% Pure Vegetarian"}
           </div>
-          <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-serif font-black text-white leading-tight mb-6 drop-shadow-2xl tracking-tight">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-serif font-black text-white leading-tight mb-6 drop-shadow-2xl tracking-tight">
             {data?.title ? renderTitle(data.title) : (
               <>Pure Veg Taste That <span className="text-[#ea580c] inline-block hover:scale-105 transition-transform duration-300">Feels Like Home</span></>
             )}
