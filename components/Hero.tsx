@@ -38,7 +38,7 @@ export default function Hero({ data }: { data?: any }) {
           <div className="inline-flex items-center gap-2 bg-[#ea580c]/30 backdrop-blur-md border border-[#ea580c]/50 text-white px-5 py-2 rounded-full text-sm font-bold mb-8 shadow-lg uppercase tracking-wider">
             <Leaf size={16} className="text-green-400" /> {data?.badge || "100% Pure Vegetarian"}
           </div>
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-serif font-black text-white leading-tight mb-6 drop-shadow-2xl tracking-tight">
+          <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-serif font-black text-white leading-tight mb-6 drop-shadow-2xl tracking-tight">
             {data?.title ? renderTitle(data.title) : (
               <>Pure Veg Taste That <span className="text-[#ea580c] inline-block hover:scale-105 transition-transform duration-300">Feels Like Home</span></>
             )}
@@ -49,13 +49,13 @@ export default function Hero({ data }: { data?: any }) {
           <div className="flex flex-col sm:flex-row gap-4">
             <button 
               onClick={() => scrollToSection("visit-us")}
-              className="bg-[#ea580c] text-white px-8 py-4 rounded-sm font-medium text-lg hover:bg-orange-700 transition-colors flex items-center justify-center gap-2 shadow-lg"
+              className="w-full sm:w-auto bg-[#ea580c] text-white px-8 py-4 rounded-sm font-medium text-lg hover:bg-orange-700 transition-colors flex items-center justify-center gap-2 shadow-lg"
             >
               <Navigation size={20} /> {data?.primary_cta || "Get Directions"}
             </button>
             <button 
               onClick={() => scrollToSection("menu-highlights")}
-              className="bg-white/10 backdrop-blur-sm text-white border border-white/30 px-8 py-4 rounded-sm font-medium text-lg hover:bg-white hover:text-[#3e2723] transition-colors flex items-center justify-center gap-2"
+              className="w-full sm:w-auto bg-white/10 backdrop-blur-sm text-white border border-white/30 px-8 py-4 rounded-sm font-medium text-lg hover:bg-white hover:text-[#3e2723] transition-colors flex items-center justify-center gap-2"
             >
               {data?.secondary_cta || "View Menu Highlights"}
             </button>
