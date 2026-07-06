@@ -95,14 +95,14 @@ export default function FullMenu() {
         <div className="flex flex-col sm:flex-row justify-center gap-2 sm:gap-4 mb-10 border-b border-gray-200 pb-1">
           <button 
             onClick={() => setActiveTab("indian")}
-            className={`flex items-center justify-center gap-2 px-4 sm:px-6 py-3 font-bold text-base sm:text-lg transition-colors border-b-4 ${activeTab === "indian" ? "border-[#ea580c] text-[#ea580c]" : "border-transparent text-gray-500 hover:text-[#ea580c]"}`}
+            className={`flex items-center justify-center gap-2 px-4 sm:px-6 py-3 font-bold text-sm sm:text-lg w-full sm:w-auto transition-colors border-b-4 ${activeTab === "indian" ? "border-[#ea580c] text-[#ea580c]" : "border-transparent text-gray-500 hover:text-[#ea580c]"}`}
           >
             <UtensilsCrossed size={20} />
             Main Course & Thali
           </button>
           <button 
             onClick={() => setActiveTab("snacks")}
-            className={`flex items-center justify-center gap-2 px-4 sm:px-6 py-3 font-bold text-base sm:text-lg transition-colors border-b-4 ${activeTab === "snacks" ? "border-[#ea580c] text-[#ea580c]" : "border-transparent text-gray-500 hover:text-[#ea580c]"}`}
+            className={`flex items-center justify-center gap-2 px-4 sm:px-6 py-3 font-bold text-sm sm:text-lg w-full sm:w-auto transition-colors border-b-4 ${activeTab === "snacks" ? "border-[#ea580c] text-[#ea580c]" : "border-transparent text-gray-500 hover:text-[#ea580c]"}`}
           >
             <Pizza size={20} />
             Snacks, Chinese & South Indian
@@ -143,7 +143,7 @@ const MenuCategory = ({ category }: { category: any }) => (
         
         return (
           <li key={idx} className="flex justify-between items-start border-b border-gray-50 pb-2 last:border-0 last:pb-0">
-            <div className="flex flex-col flex-1 pr-4">
+            <div className="flex flex-col flex-1 pr-4 break-words min-w-0">
               <span className="font-semibold text-gray-800 text-[15px]">{item.nameEn}</span>
               <span className="text-gray-600 text-sm">{item.nameHi}</span>
             </div>
