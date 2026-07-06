@@ -24,9 +24,9 @@ export default function MenuHighlights() {
           ].map((dish, idx) => (
             <div key={idx} className="bg-white rounded-sm overflow-hidden shadow-sm hover:shadow-xl transition-shadow group border border-gray-100">
               <div className="h-56 overflow-hidden relative">
-                <img 
-                  src={dish.img} 
-                  alt={dish.name} 
+                <img
+                  src={dish.img}
+                  alt={dish.name}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
                 <div className="absolute top-4 right-4 bg-white/90 backdrop-blur-sm p-1.5 rounded-full text-green-600">
@@ -40,10 +40,10 @@ export default function MenuHighlights() {
             </div>
           ))}
         </div>
-        
+
         <div className="text-center mt-12">
           {!showFullMenu ? (
-            <button 
+            <button
               onClick={() => setShowFullMenu(true)}
               className="text-[#ea580c] font-medium flex items-center justify-center gap-2 cursor-pointer hover:underline mx-auto"
             >
@@ -51,7 +51,7 @@ export default function MenuHighlights() {
             </button>
           ) : (
             <div className="flex flex-col items-center">
-              <button 
+              <button
                 onClick={() => setShowFullMenu(false)}
                 className="text-[#ea580c] font-medium flex items-center justify-center gap-2 cursor-pointer hover:underline mx-auto mb-8"
               >

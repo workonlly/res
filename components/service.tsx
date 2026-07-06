@@ -105,7 +105,7 @@ export default function Services() {
                   href="https://www.instagram.com/swadguptabhojnalya/" 
                   target="_blank" 
                   rel="noreferrer"
-                  className="flex items-center gap-2 bg-gradient-to-r from-purple-600 to-pink-500 text-white px-6 py-3 rounded-full font-medium hover:opacity-90 transition-opacity shadow-md whitespace-nowrap shrink-0"
+                  className="flex items-center justify-center gap-2 bg-gradient-to-r from-purple-600 to-pink-500 text-white w-full sm:w-auto px-6 py-3 rounded-full font-medium hover:opacity-90 transition-opacity shadow-md whitespace-nowrap shrink-0"
                 >
                   <InstagramIcon size={20} />
                   Follow Us
