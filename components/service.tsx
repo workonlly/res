@@ -73,7 +73,7 @@ export default function Services() {
                 <img 
                   src="/owner.jpeg" 
                   alt="Owner of Swad Gupta Bhojnalaya" 
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  className="w-full h-full object-fill group-hover:scale-105 transition-transform duration-500"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent sm:hidden"></div>
               </div>
