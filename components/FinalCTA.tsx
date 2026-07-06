@@ -12,10 +12,10 @@ export default function FinalCTA() {
           Visit Gupta Bhojnalaya for fresh, authentic veg food and a warm dining experience in Sambhal.
         </p>
         <div className="flex flex-col sm:flex-row justify-center gap-4">
-          <a href="tel:+910000000000" className="bg-white text-[#ea580c] px-8 py-3 rounded-sm font-bold shadow-lg hover:bg-gray-50 transition-colors flex items-center justify-center gap-2">
+          <a href="tel:+910000000000" className="w-full sm:w-auto bg-white text-[#ea580c] px-8 py-3 rounded-sm font-bold shadow-lg hover:bg-gray-50 transition-colors flex items-center justify-center gap-2">
             <Phone size={20} /> Call Now
           </a>
-          <a href="https://maps.google.com/?q=Gupta+Bhojnalaya+Sambhal+Uttar+Pradesh" target="_blank" rel="noreferrer" className="bg-[#3e2723] text-white px-8 py-3 rounded-sm font-bold shadow-lg hover:bg-gray-900 transition-colors flex items-center justify-center gap-2">
+          <a href="https://maps.google.com/?q=Gupta+Bhojnalaya+Sambhal+Uttar+Pradesh" target="_blank" rel="noreferrer" className="w-full sm:w-auto bg-[#3e2723] text-white px-8 py-3 rounded-sm font-bold shadow-lg hover:bg-gray-900 transition-colors flex items-center justify-center gap-2">
             <MapPin size={20} /> Get Directions
           </a>
         </div>

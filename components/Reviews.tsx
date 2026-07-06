@@ -133,7 +133,7 @@ export default function Reviews({ data }: { data?: any }) {
 
 
         {/* Trust Strip */}
-        <div className="mt-20 bg-gradient-to-r from-[#ea580c] to-[#c24100] py-8 px-6 md:px-12 rounded-xl flex flex-col md:flex-row items-center justify-between gap-8 text-center md:text-left shadow-2xl">
+        <div className="mt-20 bg-gradient-to-r from-[#ea580c] to-[#c24100] py-8 px-6 md:px-12 rounded-xl flex flex-col md:flex-row items-center justify-between gap-4 md:gap-8 text-center md:text-left shadow-2xl">
            <div className="flex items-center gap-4">
              <div className="bg-white/20 p-3 rounded-full">
                <Heart size={28} className="text-white fill-white" />
