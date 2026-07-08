@@ -50,7 +50,7 @@ export default function Footer({ data }: { data?: any }) {
             </li>
             <li className="flex items-center gap-2">
               <Phone size={16} className="text-[#ea580c] shrink-0" />
-              <span>{data?.phone || "+91 00000 00000"}</span>
+              <span>{data?.phone || "+91 9837091490"}</span>
             </li>
             <li className="flex items-center gap-2">
               <Clock size={16} className="text-[#ea580c] shrink-0" />
